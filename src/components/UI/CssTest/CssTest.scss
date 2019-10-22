@@ -1,0 +1,68 @@
+.cssTestMainContainer {
+   display: flex;
+   flex-direction: row;
+   width: 1045px;
+   height: 388px;
+   
+   .image {
+      height: 100%;
+      width: 38%;
+      object-fit: cover;
+   }
+   
+   .textContainer {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      align-items: center;
+      background-color: white;
+
+      .title {
+         font-weight: 600;
+         text-transform: uppercase;
+         font-size: 20px;
+         margin-top: 30px;
+         margin-bottom: 27px;
+         letter-spacing: -0.5px;
+         color: #3a3a3a;
+      }
+
+      .itemsContainer {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: center;
+
+         .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 247px;
+            height: 140px;
+            margin: 3px 24px;
+            padding: 0px 6px;
+
+            .itemNumber {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               width: 28px;
+               height: 28px;
+               background-color: #ed4625;
+               color: white;
+               margin-bottom: 14px;
+               border-radius: 50%;
+               font-weight: 600;
+               font-size: 19px;
+               padding-top: 1px;
+            }
+
+            .itemText {
+               font-size: 15px;
+               color: #555555;
+            }
+         }
+      }
+   }
+}
+
