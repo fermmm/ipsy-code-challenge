@@ -28,7 +28,7 @@ class CssTest extends Component<PropsCssTest, StateCssTest> {
                      this.items.map((text, i) => 
                         <div className={styles.item} key={i}>
                            <div className={styles.itemNumber}>
-                              {i}
+                              {i + 1}
                            </div>
                            <div className={styles.itemText}>
                               {text}
