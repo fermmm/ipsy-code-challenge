@@ -13,7 +13,7 @@ export interface StateMainPage {
 
 class MainPage extends Component<PropsMainPage, StateMainPage> {
    state: StateMainPage = {
-      sideBarOpened: false
+      sideBarOpened: true
    };
 
    public render(): JSX.Element {
